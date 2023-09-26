@@ -2,4 +2,7 @@
 <manifest>
   <project name="rumplestilzken/device_unihertz_gargoyle" path="device/unihertz" remote="github" revision="main" />
   <project name="rumplestilzken/privacysociety_device_tree" path="device/privacysociety" remote="github" revision="main" />
+  <remote name="pixelexperience" fetch="https://gitlab.pixelexperience.org/" />
+  <project name="android/vendor-blobs/vendor_mediatek_ims" path="vendor/mediatek/ims" remote="pixelexperience" revision="thirteen" />
+  <project name="android/vendor-blobs/vendor_mediatek_interfaces" path="vendor/mediatek/interfaces" remote="pixelexperience" revision="thirteen" />
 </manifest>
